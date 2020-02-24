@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>demo1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<script src="anglar-route.min.js"></script>
+	<script src="controller.js"></script>
+
+</head>
+<body ng-app="mainApp">
+	<div ng-controller="people">
+		<ul>
+			<h2>Names and age of programmers</h2>
+			<li ng-repeat="person in persons">
+
+				{{ person.name }}
+				
+
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
